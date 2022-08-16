@@ -13,8 +13,9 @@
 
   <header class="header">
     <div class="container">
-      <img class="logo-img" src="svg/noemi-logo.svg" alt="Логотип Ноэми">
-      <a class="header-logo" href="#0"></a>
+      <a class="header-logo" href="#0">
+        <img class="logo-img" src="svg/noemi-logo.svg" alt="Логотип Ноэми">
+      </a>
       <nav class="menu">
         <button class="menu-button">
           <span class="menu-button-label">открыть меню</span>
@@ -46,59 +47,56 @@
     </div>
   </header>
 
-  <div class="trends-title">
+  <section class="trends">
+    <div class="trends-title">
     <h3>Сейчас в тренде</h3>
   </div>
-  <section class="trends">
-    <article class="trends-article">
-      <div class="trends-img">
-        <img class="trends-picture" src="images/trend1.jpg" alt="Растения, посаженные в горшках" width="414 ">
-      </div>
+  <div class="trends-container-content">
+    <article class="trend article-one">
       <div class="trends-info">
         <ul class="trends-item">
           <li><a href="#0" class="trends-list">Lifestyle</a></li>
           <li><a href="#0" class="trends-list">Interior</a></li>
         </ul>
+        <div class="trends-category-title">
         <h2 class="trends-post"><a href="#0"></a>Сейчас в тренде: сад на подоконнике </h2>
-      </div>
+        </div>
+    </div>
     </article>
   
-    <article class="trends-article">
-      <div class="trends-img">
-        <img class="trends-picture" src="images/trend2.jpg " alt="Разные виды сыров, нарезанные большими кусками" width="414">
-      </div>
+    <article class="trend article-two">
       <div class="trends-info">
         <ul class="trends-item">
           <li><a href="#0" class="trends-list">Food</a></li>
         </ul>
+      <div class="trends-category-title">
         <h2 class="trends-post"><a href="#0"></a>Сыры на красивых картинках из интернета: какие они на вкус?</h2>
       </div>
+    </div>
     </article>
   
-    <article class="trends-article">
-      <div class="trends-img">
-        <img class="trends-picture" src="images/trend3.jpg " alt="Девушка с рюкзаком за спиной смотрит на горы" width="414">
-      </div>
+    <article class="trend article-three">
       <div class="trends-info">
         <ul class="trends-item">
           <li><a href="#0" class="trends-list">Lifestyle</a></li>
           <li><a href="#0" class="trends-list">Travel</a></li>
         </ul>
+      <div class="trends-category-title">
         <h2 class="trends-post"><a href="#0"></a>Собираемся в первый поход в горы</h2>
       </div>
+    </div>
     </article>
   
-    <article class="trends-article">
-      <div class="trends-img">
-        <img class="trends-picture" src="images/trend4.jpg " alt="Много лимонов в корзине" width="414">
-      </div>
+    <article class="trend article-four">
       <div class="trends-info">
         <ul class="trends-item">
           <li><a href="#0" class="trends-list">Food</a></li>
           <li><a href="#0" class="trends-list">Health</a></li>
         </ul>
+      <div class="trends-category-title">
         <h2 class="trends-post"><a href="#0"></a>Сейчас в тренде: сколько витамина с в лимонах?</h2>
       </div>
+    </div>
     </article>
   </section>
 
@@ -110,17 +108,20 @@
     <div class="products">
       <article class="product">
         <picture class="product-picture">
+          <source srcset="images/shop-item-desk1.jpg" media="(min-width: 1200px)" >
           <source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
           <source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
           <img class="product-img" src="images/shop-item-desk1.jpg" alt="Розовая подушка, с английской надписью, на диван">
         </picture>
       </article>
+
   
       <div class="product-info">
         <h2 class="product-name"><a href="#0"></a>Подушки на диван</h2>
         <div class="products-decription">
           <p>Набор из двух подушек с модными принтами. Видео о создании <strong>здесь</strong>.</p>
         </div>
+    
   
         <footer class="product-footer">
           <div class="product-prices">
@@ -141,6 +142,7 @@
     <div class="products">
       <article class="product">
         <picture class="product-picture">
+          <source srcset="images/shop-item-desk2.jpg" media="(min-width: 1200px)" >
           <source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
           <source srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)">
           <img class="product-img" src="images/shop-item-desk2.jpg" alt="Сшитая кукла зайчик">
@@ -168,6 +170,7 @@
     <div class="products">
       <article class="product">
         <picture class="product-picture">
+          <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)" >
           <source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
           <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
           <img class="product-img" src="images/shop-item-desk3.jpg" alt="Шестиугольная рамка">
